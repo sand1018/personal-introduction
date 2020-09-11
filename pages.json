@@ -1,0 +1,41 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationStyle": "custom",
+			"navigationBarTextStyle":"white"
+		}
+	}, {
+		"path": "pages/introduction/introduction",
+		"style": {
+			"navigationBarTitleText": "个人介绍",
+			"navigationStyle":"custom",
+			"navigationBarTextStyle":"white"
+		}
+	}, {
+		"path": "pages/skills/skills",
+		"style": {
+			"navigationBarTitleText": "职业技能"
+		}
+	}, {
+		"path": "pages/experience/experience",
+		"style": {
+			"navigationBarTitleText": "工作经历"
+		}
+	}    ,{
+            "path" : "pages/projects/projects",
+            "style" : {
+				"navigationBarTitleText": "项目经验"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "luch-request demo",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F8F8F8"
+	}
+}
